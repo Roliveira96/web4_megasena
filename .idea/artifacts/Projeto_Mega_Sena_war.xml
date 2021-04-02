@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Projeto_Mega_Sena:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Projeto_Mega_Sena</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Projeto_web4_MegaSena-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Projeto_Mega_Sena:war exploded" />
+    </root>
+  </artifact>
+</component>
