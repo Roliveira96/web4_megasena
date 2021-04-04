@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<img src="assets/resources/images/mega-sena.jpg" alt="Unsplashed background img 2">
+<img src="assets/resources/images/500.png" width="600" alt="Unsplashed background img 2">
 
 </body>
 </html>

@@ -47,10 +47,12 @@
     <div class="container">
         <div class="col s12 m12">
             <div class="card-panel">
-                Olá ${name}, a sua idade é: ${age}
-
-tests: ${cliente}
-testsccc: ${cookies}
+                Olá ${name}
+                A sua idade é ${age}
+                <br>
+                Data: ${date}
+                Contador Global: ${counterApplication}
+                Contador Sessão: ${counterSession}
 
             </div>
         </div>

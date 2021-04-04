@@ -1,4 +1,3 @@
-
 <%--
   Created by IntelliJ IDEA.
   User: ricardo
@@ -27,7 +26,6 @@
 <body>
 
 
-
 <header>
     <nav>
         <div class="nav-wrapper">
@@ -47,7 +45,7 @@
         <div class="col s12 m12">
             <div class="card-panel">
                 <h2>Form de envio de nome e sobrenome</h2>
-                <form action="calculadora-idade" method="POST">
+                <form action="calculadora-idade" method="post">
                     Nome: <input type="text" name="name">
                     Data de nacimento: <input type="text" name="year">
                     <button>Enviar</button>
@@ -56,8 +54,8 @@
                 IpAdress: ${ipAdress}<br>
                 Context: ${context}<br>
 
-Teste: ${cliente}
-Teste: ${cookies}
+                Teste: ${cliente}
+                Teste: ${cookies}
             </div>
         </div>
     </div>

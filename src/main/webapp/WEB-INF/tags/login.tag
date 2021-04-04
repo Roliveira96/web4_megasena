@@ -49,7 +49,7 @@
                                     <i class="material-icons right">send</i>
                                 </button>
 
-                                <a class="btn waves-effect waves-light  orange">
+                                <a href="cadastro" class="btn waves-effect waves-light  orange">
                                     Cadastrar
                                     <i class="material-icons right white-text">cloud</i></a>
 

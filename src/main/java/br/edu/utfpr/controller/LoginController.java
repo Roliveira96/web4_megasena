@@ -28,21 +28,11 @@ public class LoginController extends HttpServlet {
 
 
         if (ricardo.login(email, password)) {
-            HttpServletRequest httpRequest = (HttpServletRequest) request;
-
-
-            Cookie cookie = new Cookie("user", "teete");
-            response.addCookie(cookie);
-            cookie.setMaxAge(20);
-
-            HttpSession session = httpRequest.getSession(true);
-            session.setAttribute("emailFlash", email);
-            Map<String, Object> flashParams = new HashMap();
-
-            flashParams.put("EmailFlas", email);
-
-           response.sendRedirect("perfil");
-         //   request.getRequestDispatcher("WEB-INF/view/resultlogin.jsp").forward(request, response);
+            request.setAttribute("user", ricardo);
+            getServletContext().setAttribute("user", ricardo);
+            System.out.println("teste> "+getServletContext());
+            response.sendRedirect("perfil");
+            //   request.getRequestDispatcher("WEB-INF/view/resultlogin.jsp").forward(request, response);
 
         } else {
 

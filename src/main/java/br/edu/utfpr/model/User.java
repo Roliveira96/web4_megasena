@@ -38,6 +38,29 @@ public class User {
     }
 
 
+    public boolean register(String email){
+        String emailBanco ="teste@teste.com.br";
+
+        if (email.equals(emailBanco)){
+            return false;
+        }else {
+            return true;
+        }
+
+    }
+
+    public boolean save(){
+        Boolean retornoBanco = true;
+
+        if (retornoBanco){
+            return true;
+        }else {
+            return false;
+        }
+
+    }
+
+
     public String getName() {
         return name;
     }

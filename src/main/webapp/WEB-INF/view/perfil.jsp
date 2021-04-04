@@ -29,12 +29,13 @@
             <div class="container card">
                 <h1>Resultado Post</h1>
 
-                email: ${email}
+                Bem Vindo! ${user.getName()}
+                <hr>
+
+                Seu e-mail:${user.getEmail()}
                 <br>
-                senha: ${password}
-                <br>
-                senha: ${result}
-                <br>
+                Sua senha: ${user.getPassword()}
+                <hr>
                 Cookie email: ${emailCookie}
                 <br>
                 senha: ${emailSession}
